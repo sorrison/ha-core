@@ -324,6 +324,15 @@ class DPCode(StrEnum):
     SWITCH_USB6 = "switch_usb6"  # USB 6
     SWITCH_VERTICAL = "switch_vertical"  # Vertical swing flap switch
     SWITCH_VOICE = "switch_voice"  # Voice switch
+    TANK_TEMP = "tank_temp"
+    OUTLET_TEMP = "outlet_temp"
+    INLET_TEMP = "inlet_temp"
+    DISCHARGE_TEMP = "discharge_temp"
+    SUCTION_TEMP = "suction_temp"
+    EVAPOPRATOR_TEMP = "evaporator_temp"
+    ESTIMATED_HOT_WATER = "estimated_hot_water"
+    ELECTRICITY_CONSUMPTION_1 = "electricity_consumption_1"
+    AMBIENT_TEMP = "ambient_temp"
     TEMP = "temp"  # Temperature setting
     TEMP_BOILING_C = "temp_boiling_c"
     TEMP_BOILING_F = "temp_boiling_f"
